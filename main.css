@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* body{
+    height: 3500px;
+} */
+/*========================{ Fonts }==============================*/
+.try-free, header h3, header .main-uno a, main h3{
+    font-family: 'Poppins', sans-serif;
+}
+header p,main p,footer{
+    font-family: 'Open Sans', sans-serif;
+}
+/*========================{ Header/bar }==============================*/
+header{
+    background-color: hsl(193, 100%, 96%);
+    height: 732px;
+}
+header .bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.bar a{
+    text-decoration: none;
+    font-weight: 700;
+    color: hsl(192, 100%, 9%);
+    background-color: white;
+
+    border-radius: 60px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 10px;
+
+    padding: 10px 50px;
+    transition: all 0.5s ease;
+}
+.bar a:hover{
+    color:  #2c362f ;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 25px;
+}
+/*========================{ Header/main-uno }==============================*/
+header .main-uno{
+    width: 600px;
+    margin: 100px 0 0 50px;
+    height: 260px;
+}
+header .main-uno h3{
+    color: hsl(192, 100%, 9%);
+    font-size: 30px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+header .main-uno p{
+    color: hsl(192, 100%, 9%);
+    font-weight: 400;
+    width: 500px;
+    margin-bottom: 40px;
+}
+header .main-uno a{
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+
+    border-radius: 60px;
+    padding: 10px 50px;
+}
+/*========================{ Containers }==============================*/
+.first-container,.second-container,.third-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 15px;
+}
+.first-container{
+    margin: 100px 60px 10px 60px;
+    padding: 40px 80px;
+}
+.second-container{
+    margin: 40px 60px 30px 60px;
+    padding: 40px 80px;
+}
+.third-container{
+    margin: 40px 60px 30px 60px;
+    padding: 40px 80px;
+}
+/*========================{ Main/main-uno-dos-tres }==============================*/
+main .main-uno,main .main-dos,main .main-tres{
+    width: 550px;
+    height: 120px;
+}
+main .main-uno h3,main .main-dos h3,main .main-tres h3{
+    color: hsl(192, 100%, 9%);
+    font-size: 30px;
+}
+main .main-dos{
+    margin-left: 80px;
+}
+main .main-uno p{
+    color: hsl(192, 100%, 9%);
+    font-weight: 400;
+    width: 500px;
+}
+main .main-dos p,main .main-tres p{
+    color: hsl(192, 100%, 9%);
+    font-weight: 400;
+    width: 450px;
+}
+/*========================{ Main/main-dos }==============================*/
+
+/*========================{ Footer }==============================*/
+footer{
+    background-color: hsl(192, 100%, 9%);
+}
+footer .container{
+    padding: 100px 60px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+/*========================{ Contact }==============================*/
+.location, .phone, .email{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.location img, .phone img, .email img{
+    margin-right: 17px;
+}
+/*========================{ Nav-uno-dos }==============================*/
+.nav-uno ul li, .nav-dos ul li{
+    list-style: none;
+    margin: 15px;
+}
+.nav-uno ul li a, .nav-dos ul li a{
+    text-decoration: none;
+}
+/*========================{ Icons }==============================*/
+.icon{
+    font-size: 20px;
+    padding: 10px;
+    border: white solid 1px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
