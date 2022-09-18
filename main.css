@@ -7,7 +7,7 @@
     height: 3500px;
 } */
 /*========================{ Fonts }==============================*/
-.try-free, header h3, header .main-uno a, main h3{
+.try-free, header h3, header .main-uno a, main h3, main .four-container a{
     font-family: 'Poppins', sans-serif;
 }
 header p,main p,footer{
@@ -58,7 +58,7 @@ header .main-uno p{
     width: 500px;
     margin-bottom: 40px;
 }
-header .main-uno a{
+header .main-uno a, main .four-container a{
     text-decoration: none;
     font-weight: 700;
     color: white;
@@ -87,6 +87,17 @@ header .main-uno a{
     margin: 40px 60px 30px 60px;
     padding: 40px 80px;
 }
+.four-container{
+    margin: 80px auto;
+    padding: 50px;
+    width: 500px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 15px;
+}
+.four-container *{
+    margin: 30px;
+}
 /*========================{ Main/main-uno-dos-tres }==============================*/
 main .main-uno,main .main-dos,main .main-tres{
     width: 550px;
@@ -109,8 +120,6 @@ main .main-dos p,main .main-tres p{
     font-weight: 400;
     width: 450px;
 }
-/*========================{ Main/main-dos }==============================*/
-
 /*========================{ Footer }==============================*/
 footer{
     background-color: hsl(192, 100%, 9%);
